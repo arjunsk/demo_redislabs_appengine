@@ -3,7 +3,6 @@ package main
 import (
 	"fmt"
 	"net/http"
-	"os"
 	"github.com/garyburd/redigo/redis"
 	"google.golang.org/appengine"
 )
@@ -11,7 +10,7 @@ import (
 var redisPool *redis.Pool
 
 func main() {
-	redisAddr := "redis-XXXX.c9.us-east-1-2.ec2.cloud.redislabs.com:XXXX"
+	redisAddr := "redis-XXXXX.c9.us-east-1-2.ec2.cloud.redislabs.com:XXXXX"
 
 	redisPool = &redis.Pool{
 		Dial: func() (redis.Conn, error) {
