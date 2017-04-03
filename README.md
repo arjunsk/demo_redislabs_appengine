@@ -1,2 +1,2 @@
-# Demo Project for Redis on Google App Engine
+#### Demo Project for Redis on Google App Engine / Heroku
 
