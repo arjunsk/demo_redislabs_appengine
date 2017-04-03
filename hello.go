@@ -11,7 +11,7 @@ import (
 var redisPool *redis.Pool
 
 func main() {
-	redisAddr := os.Getenv("REDIS_ADDR")
+	redisAddr := "redis-XXXX.c9.us-east-1-2.ec2.cloud.redislabs.com:XXXX"
 
 	redisPool = &redis.Pool{
 		Dial: func() (redis.Conn, error) {
